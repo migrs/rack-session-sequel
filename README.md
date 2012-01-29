@@ -6,7 +6,6 @@ Rack session store for Sequel
 <http://github.com/migrs/rack-session-sequel>
 
 [![Build Status](https://secure.travis-ci.org/migrs/rack-session-sequel.png)](http://travis-ci.org/migrs/rack-session-sequel)
-[![Still Maintained](http://stillmaintained.com/migrs/rack-session-sequel.png)](http://stillmaintained.com/migrs/rack-session-sequel)
 
 ## Installation
 
