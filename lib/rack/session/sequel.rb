@@ -63,7 +63,7 @@ module Rack
         (@default_options[:db] || ::Sequel.connect(@default_options[:db_uri])).tap do |db|
           db.create_table @default_options[:table_name] do
             #primary_key :id
-            String :sid, :unique => true,  :null => false, :primary_key => true
+            String :sid, :null => false, :primary_key => true
             text :session, :null => false
             DateTime :created_at, :null => false
             DateTime :updated_at
