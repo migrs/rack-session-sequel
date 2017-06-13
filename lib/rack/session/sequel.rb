@@ -96,7 +96,7 @@ module Rack
       end
 
       def _record(sid)
-        @pool.filter('sid = ?', sid)
+        @pool.where(sid: sid)
       end
     end
   end
